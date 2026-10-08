@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "forcerun_fortress",
+  "version": "${version}",
+  "name": "ForceRun Fortress",
+  "description": "Adds /forcerun fortress to generate and register a real vanilla Nether Fortress at the player's location.",
+  "authors": ["Landen"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.landen.forcerun.ForceRunFortress"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "fabric-api": "*"
+  }
+}
